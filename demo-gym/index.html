@@ -11,76 +11,74 @@
 <meta property="og:description" content="Demo Gym — AC gym with certified trainers. Monthly plans from ₹1,500, free trial session this week. WhatsApp us and we reply in under a minute.">
 <meta property="og:image" content="https://arnav577.github.io/demo-gym/og-image.png">
 <meta property="og:url" content="https://arnav577.github.io/demo-gym/">
-<meta name="theme-color" content="#0B0D12">
+<meta name="theme-color" content="#0A1220">
 <link rel="icon" href="favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="favicon-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <style>
 :root{
-  --primary: #E63946;
-  --accent: #FFB703;
-  --dark: #0B0D12;
+  --primary: #3B82F6;
+  --accent: #7DD3FC;
+  --dark: #0A1220;
 }
 @font-face{
   font-family:'Anton';
-  src:url('assets/fonts/anton.woff2?v=aa2e59dd') format('woff2');
+  src:url('assets/fonts/anton.woff2?v=b4774885') format('woff2');
   font-weight:400;font-style:normal;font-display:swap;
 }
 </style>
-<link rel="stylesheet" href="css/site.css?v=aa2e59dd">
+<link rel="stylesheet" href="css/site.css?v=b4774885">
 <script type="application/ld+json">{&#34;@context&#34;: &#34;https://schema.org&#34;, &#34;@type&#34;: &#34;HealthClub&#34;, &#34;name&#34;: &#34;Demo Gym&#34;, &#34;description&#34;: &#34;Demo Gym — AC gym with certified trainers. Monthly plans from ₹1,500, free trial session this week. WhatsApp us and we reply in under a minute.&#34;, &#34;address&#34;: &#34;12 Demo Road, Near City Mall, Yourtown 400001&#34;, &#34;telephone&#34;: &#34;+919509596667&#34;, &#34;url&#34;: &#34;https://arnav577.github.io/demo-gym/&#34;, &#34;image&#34;: &#34;https://arnav577.github.io/demo-gym/og-image.png&#34;, &#34;priceRange&#34;: &#34;₹₹&#34;, &#34;hasMap&#34;: &#34;https://maps.google.com/?q=Demo+Gym&#34;, &#34;sameAs&#34;: [&#34;https://instagram.com/arnavautomates&#34;], &#34;openingHoursSpecification&#34;: [{&#34;@type&#34;: &#34;OpeningHoursSpecification&#34;, &#34;dayOfWeek&#34;: &#34;Mon–Sat&#34;, &#34;description&#34;: &#34;6:00 AM – 10:00 PM&#34;}, {&#34;@type&#34;: &#34;OpeningHoursSpecification&#34;, &#34;dayOfWeek&#34;: &#34;Sunday&#34;, &#34;description&#34;: &#34;8:00 AM – 1:00 PM&#34;}]}</script>
 </head>
 <body>
 
-<header class="topbar">
-  <div class="brand">
-    <span class="brand-mark" aria-hidden="true">D</span>
-    <span class="brand-name">Demo Gym</span>
-  </div>
-  <a class="topbar-cta" href="https://wa.me/15552045395?text=Hi">WhatsApp&nbsp;Us</a>
-</header>
-
 <!-- ============ HERO ============ -->
-<section class="hero" id="hero">
-  <div class="hero-visual" id="hero-visual" data-primary="#E63946" data-accent="#FFB703">
-    <!-- Static poster: always present; 3D canvas cross-fades over it when the device qualifies -->
-    <svg class="hero-poster" viewBox="0 0 320 220" role="img" aria-label="Gym equipment illustration">
-      <defs>
-        <radialGradient id="glow" cx="50%" cy="45%" r="60%">
-          <stop offset="0%" stop-color="var(--primary)" stop-opacity=".33"/>
-          <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect width="320" height="220" fill="url(#glow)"/>
-      <g transform="rotate(-18 160 110)">
-        <rect x="70" y="104" width="180" height="12" rx="6" fill="#8d97a8"/>
-        <rect x="52" y="74" width="20" height="72" rx="8" fill="var(--primary)"/>
-        <rect x="76" y="84" width="14" height="52" rx="7" fill="var(--primary)" opacity=".75"/>
-        <rect x="248" y="74" width="20" height="72" rx="8" fill="var(--primary)"/>
-        <rect x="230" y="84" width="14" height="52" rx="7" fill="var(--primary)" opacity=".75"/>
-      </g>
-      <circle cx="262" cy="52" r="14" fill="none" stroke="var(--accent)" stroke-width="5" opacity=".9"/>
-      <circle cx="58" cy="176" r="7" fill="var(--accent)" opacity=".65"/>
-    </svg>
-  </div>
-  <div class="hero-copy">
-    <h1 class="display">Your strongest year starts here</h1>
+<section class="hero">
+  <div class="hero-photo" style="background-image:url('assets/hero.webp?v=b4774885')" aria-hidden="true"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-visual" id="hero-visual"
+       data-primary="#3B82F6" data-accent="#7DD3FC"></div>
+
+  <nav class="nav">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">D</span>
+      <span class="brand-name">Demo Gym</span>
+    </div>
+    <div class="nav-links">
+      <a href="#plans">Plans</a>
+      <a href="#visit">Visit</a>
+    </div>
+    <a class="nav-cta" href="https://wa.me/15552045395?text=Hi">Free Trial</a>
+  </nav>
+
+  <div class="hero-inner">
+    <div class="proof">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span class="proof-text">Rated 4.8 by 200+ members</span>
+    </div>
+    <h1 class="display hero-title">Your strongest year starts here</h1>
     <p class="hero-sub">AC gym with certified trainers in the heart of town. First trial session free this week — no charges, no forms.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="https://wa.me/15552045395?text=Hi">💬 WhatsApp Us</a>
-      <a class="btn btn-ghost" href="tel:+919509596667">📞 Call Now</a>
+      <a class="btn btn-primary" href="https://wa.me/15552045395?text=Hi"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> Join on WhatsApp</a>
+      <a class="btn btn-ghost" href="tel:+919509596667"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> Call Us</a>
     </div>
+    
+    <div class="hero-chips">
+      <span class="chip">Strength training</span><span class="chip">Cardio zone</span><span class="chip">Personal training</span>
+    </div>
+    
   </div>
+  <span class="drag-hint">360° · drag to rotate</span>
 </section>
 
 
-<!-- ============ OFFER STRIP ============ -->
+<!-- ============ OFFER BAR ============ -->
 <section class="offers" data-fx="rise">
   
   <div class="offer">
-    <span class="offer-flame" aria-hidden="true">🔥</span>
+    <span class="offer-tag">Limited</span>
     <span class="offer-text">Free trial session for new members this week</span>
-    <span class="offer-expiry">till 31 Jul</span>
+    <span class="offer-expiry">ends 31 Jul</span>
   </div>
   
 </section>
@@ -88,7 +86,8 @@
 
 <!-- ============ PLANS ============ -->
 <section class="section plans" id="plans">
-  <h2 class="display section-title" data-fx="rise">Membership <span class="tint">Plans</span></h2>
+  <p class="kicker" data-fx="rise">Membership</p>
+  <h2 class="display section-title" data-fx="rise">Plans that fit <span class="tint">your goal</span></h2>
   <div class="plan-grid">
     
     <div class="plan-card" data-fx="tilt">
@@ -112,7 +111,7 @@
     </div>
     
     <div class="plan-card featured" data-fx="tilt">
-      <div class="plan-badge">MOST POPULAR</div>
+      <div class="plan-badge">Most popular</div>
       <h3 class="plan-name">Yearly</h3>
       <div class="plan-price">₹12,000<span class="plan-period">/year</span></div>
       <ul class="plan-points">
@@ -127,17 +126,12 @@
 
 <!-- ============ CLASSES + FACILITIES ============ -->
 <section class="section chips-section">
-  
-  <h2 class="display section-title" data-fx="rise">What you can <span class="tint">do here</span></h2>
+  <p class="kicker" data-fx="rise">Inside Demo Gym</p>
+  <h2 class="display section-title" data-fx="rise">Everything you need <span class="tint">to train right</span></h2>
   <div class="chip-row" data-fx="rise">
-    <span class="chip">Strength training</span><span class="chip">Cardio zone</span><span class="chip">Personal training</span>
+    <span class="chip chip-solid">Strength training</span><span class="chip chip-solid">Cardio zone</span><span class="chip chip-solid">Personal training</span>
+    <span class="chip">AC gym floor</span><span class="chip">Locker room</span><span class="chip">Free parking</span>
   </div>
-  
-  
-  <div class="chip-row chips-muted" data-fx="rise">
-    <span class="chip chip-outline">AC gym floor</span><span class="chip chip-outline">Locker room</span><span class="chip chip-outline">Free parking</span>
-  </div>
-  
 </section>
 
 
@@ -145,6 +139,7 @@
 <!-- ============ TRAINERS ============ -->
 <section class="section trainers" data-fx="rise">
   <blockquote class="trainer-quote">“Certified trainers who build a plan around you — not the other way round.”</blockquote>
+  <p class="trainer-attrib">— the Demo Gym team</p>
 </section>
 
 
@@ -152,16 +147,17 @@
 
 <!-- ============ TIMINGS + LOCATION ============ -->
 <section class="section visit" id="visit">
-  <h2 class="display section-title" data-fx="rise">Come <span class="tint">visit</span></h2>
+  <p class="kicker" data-fx="rise">Visit us</p>
+  <h2 class="display section-title" data-fx="rise">We're open <span class="tint">most of your day</span></h2>
   <div class="visit-grid">
     <div class="visit-card" data-fx="tilt">
-      <h3>🕐 Timings</h3>
+      <h3>Timings</h3>
       <table class="timings">
         <tr><td>Mon–Sat</td><td>6:00 AM – 10:00 PM</td></tr><tr><td>Sunday</td><td>8:00 AM – 1:00 PM</td></tr>
       </table>
     </div>
     <div class="visit-card" data-fx="tilt">
-      <h3>📍 Find us</h3>
+      <h3>Location</h3>
       <p class="address">12 Demo Road, Near City Mall, Yourtown 400001</p>
       <a class="btn btn-ghost" href="https://maps.google.com/?q=Demo+Gym" rel="noopener" target="_blank">Open in Maps</a>
     </div>
@@ -172,7 +168,7 @@
 <section class="section final-cta" data-fx="rise">
   <h2 class="display">Ready when <span class="tint">you are.</span></h2>
   <p>Message us — we reply in under a minute.</p>
-  <a class="btn btn-primary btn-big" href="https://wa.me/15552045395?text=Hi">💬 WhatsApp Demo Gym</a>
+  <a class="btn btn-primary btn-big" href="https://wa.me/15552045395?text=Hi"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> WhatsApp Demo Gym</a>
 </section>
 
 <footer class="footer">
@@ -182,23 +178,26 @@
 
 <!-- Sticky mobile CTA bar -->
 <nav class="sticky-cta" aria-label="Quick contact">
-  <a class="sticky-btn sticky-wa" href="https://wa.me/15552045395?text=Hi">💬 WhatsApp</a>
-  <a class="sticky-btn sticky-call" href="tel:+919509596667">📞 Call</a>
+  <a class="sticky-btn sticky-wa" href="https://wa.me/15552045395?text=Hi"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> WhatsApp</a>
+  <a class="sticky-btn sticky-call" href="tel:+919509596667"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> Call</a>
 </nav>
 
-<script src="js/scrollfx.js?v=aa2e59dd" defer></script>
+<script src="js/scrollfx.js?v=b4774885" defer></script>
 <script>
 // 3D gate: only fetch Three.js on devices that will enjoy it.
 addEventListener('load', function () {
   var go = function () {
     try {
-      if (new URLSearchParams(location.search).has('no3d')) return;
-      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-      if (navigator.deviceMemory !== undefined && navigator.deviceMemory < 2) return;
+      var q = new URLSearchParams(location.search);
+      if (q.has('no3d')) return;
+      if (!q.has('force3d')) {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        if (navigator.deviceMemory !== undefined && navigator.deviceMemory < 2) return;
+      }
       var c = document.createElement('canvas');
       if (!(c.getContext('webgl2') || c.getContext('webgl'))) return;
-      import('./js/hero3d.js?v=aa2e59dd').catch(function(){ /* poster stays */ });
-    } catch (e) { /* poster stays */ }
+      import('./js/hero3d.js?v=b4774885').catch(function(){ /* photo hero stays */ });
+    } catch (e) { /* photo hero stays */ }
   };
   ('requestIdleCallback' in window) ? requestIdleCallback(go, {timeout: 3000}) : setTimeout(go, 800);
 });
