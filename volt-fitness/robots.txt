@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://arnav577.github.io/volt-fitness/
