@@ -72,7 +72,7 @@ function init(host) {
   // --- materials -----------------------------------------------------------
   const chrome = new THREE.MeshPhysicalMaterial({
     color: 0xe8edf5, metalness: 1, roughness: 0.12,
-    clearcoat: 1, clearcoatRoughness: 0.1, envMapIntensity: 1.4,
+    clearcoat: 1, clearcoatRoughness: 0.1, envMapIntensity: 1.9,
   });
   const rubber = new THREE.MeshPhysicalMaterial({
     color: 0x11151d, metalness: 0.1, roughness: 0.55,
@@ -170,14 +170,14 @@ function init(host) {
     renderer.setSize(w, h, false);
     camera.aspect = w / h;
     camera.updateProjectionMatrix();
-    // full-bleed hero: keep the barbell clear of the copy — right side on
-    // desktop, upper third on phones
+    // poster layout: athlete owns the center — barbell drifts on the left
+    // on desktop, top-right corner on phones
     if (camera.aspect > 1.05) {
-      group.position.set(2.3, 0.4, 0);
-      group.scale.setScalar(1);
+      group.position.set(-3.6, 1.3, -1.2);
+      group.scale.setScalar(1.0);
     } else {
-      group.position.set(0, 2.1, -1.2);
-      group.scale.setScalar(0.72);
+      group.position.set(1.2, 2.9, -2.5);
+      group.scale.setScalar(0.5);
     }
   }
   resize();

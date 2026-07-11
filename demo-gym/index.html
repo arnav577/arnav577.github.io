@@ -18,26 +18,29 @@
 <style>
 :root{
   --primary: #3B82F6;
-  --accent: #7DD3FC;
+  --accent: #FACC15;
   --dark: #0A1220;
 }
 @font-face{
   font-family:'Anton';
-  src:url('assets/fonts/anton.woff2?v=b4774885') format('woff2');
+  src:url('assets/fonts/anton.woff2?v=687a6c91') format('woff2');
   font-weight:400;font-style:normal;font-display:swap;
 }
 </style>
-<link rel="stylesheet" href="css/site.css?v=b4774885">
+<link rel="stylesheet" href="css/site.css?v=687a6c91">
 <script type="application/ld+json">{&#34;@context&#34;: &#34;https://schema.org&#34;, &#34;@type&#34;: &#34;HealthClub&#34;, &#34;name&#34;: &#34;Demo Gym&#34;, &#34;description&#34;: &#34;Demo Gym — AC gym with certified trainers. Monthly plans from ₹1,500, free trial session this week. WhatsApp us and we reply in under a minute.&#34;, &#34;address&#34;: &#34;12 Demo Road, Near City Mall, Yourtown 400001&#34;, &#34;telephone&#34;: &#34;+919509596667&#34;, &#34;url&#34;: &#34;https://arnav577.github.io/demo-gym/&#34;, &#34;image&#34;: &#34;https://arnav577.github.io/demo-gym/og-image.png&#34;, &#34;priceRange&#34;: &#34;₹₹&#34;, &#34;hasMap&#34;: &#34;https://maps.google.com/?q=Demo+Gym&#34;, &#34;sameAs&#34;: [&#34;https://instagram.com/arnavautomates&#34;], &#34;openingHoursSpecification&#34;: [{&#34;@type&#34;: &#34;OpeningHoursSpecification&#34;, &#34;dayOfWeek&#34;: &#34;Mon–Sat&#34;, &#34;description&#34;: &#34;6:00 AM – 10:00 PM&#34;}, {&#34;@type&#34;: &#34;OpeningHoursSpecification&#34;, &#34;dayOfWeek&#34;: &#34;Sunday&#34;, &#34;description&#34;: &#34;8:00 AM – 1:00 PM&#34;}]}</script>
 </head>
 <body>
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="hero-photo" style="background-image:url('assets/hero.webp?v=b4774885')" aria-hidden="true"></div>
-  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-canvas" aria-hidden="true"></div>
   <div class="hero-visual" id="hero-visual"
-       data-primary="#3B82F6" data-accent="#7DD3FC"></div>
+       data-primary="#3B82F6" data-accent="#FACC15"></div>
+
+  <h1 class="display mega" aria-label="Your strongest year starts here"><span class="mega-w ">Your</span> <span class="mega-w mega-accent">strongest</span> <span class="mega-w ">year</span> <span class="mega-w ">starts</span> <span class="mega-w mega-ghost">here</span> </h1>
+
+  <img class="athlete" src="assets/hero.webp?v=687a6c91" alt="" aria-hidden="true">
 
   <nav class="nav">
     <div class="brand">
@@ -51,25 +54,33 @@
     <a class="nav-cta" href="https://wa.me/15552045395?text=Hi">Free Trial</a>
   </nav>
 
+  <div class="chipfloat chipfloat-l" data-parallax="0.4">
+    <span class="stars" aria-hidden="true">★★★★★</span>
+    <strong>Rated 4.8 by 200+ members</strong>
+  </div>
+  <div class="chipfloat chipfloat-r" data-parallax="0.6">
+    <strong>Open 6:00 AM – 10:00 PM</strong>
+    <span>Mon–Sat</span>
+  </div>
+
   <div class="hero-inner">
-    <div class="proof">
-      <span class="stars" aria-hidden="true">★★★★★</span>
-      <span class="proof-text">Rated 4.8 by 200+ members</span>
-    </div>
-    <h1 class="display hero-title">Your strongest year starts here</h1>
+    <p class="proof-inline"><span class="stars" aria-hidden="true">★★★★★</span> Rated 4.8 by 200+ members</p>
     <p class="hero-sub">AC gym with certified trainers in the heart of town. First trial session free this week — no charges, no forms.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="https://wa.me/15552045395?text=Hi"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> Join on WhatsApp</a>
-      <a class="btn btn-ghost" href="tel:+919509596667"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> Call Us</a>
+      <a class="btn btn-accent" href="https://wa.me/15552045395?text=Hi">Get your free pass →</a>
+      <a class="btn btn-ghost" href="tel:+919509596667"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> Call us</a>
     </div>
-    
-    <div class="hero-chips">
-      <span class="chip">Strength training</span><span class="chip">Cardio zone</span><span class="chip">Personal training</span>
-    </div>
-    
   </div>
   <span class="drag-hint">360° · drag to rotate</span>
 </section>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    
+    <span>Strength training</span><span class="dot">·</span><span>Cardio zone</span><span class="dot">·</span><span>Personal training</span><span class="dot">·</span><span>AC gym floor</span><span class="dot">·</span><span>Locker room</span><span class="dot">·</span><span>Free parking</span><span class="dot">·</span><span>Strength training</span><span class="dot">·</span><span>Cardio zone</span><span class="dot">·</span><span>Personal training</span><span class="dot">·</span><span>AC gym floor</span><span class="dot">·</span><span>Locker room</span><span class="dot">·</span><span>Free parking</span><span class="dot">·</span><span>Strength training</span><span class="dot">·</span><span>Cardio zone</span><span class="dot">·</span><span>Personal training</span><span class="dot">·</span><span>AC gym floor</span><span class="dot">·</span><span>Locker room</span><span class="dot">·</span><span>Free parking</span><span class="dot">·</span>
+  </div>
+</div>
 
 
 <!-- ============ OFFER BAR ============ -->
@@ -182,7 +193,7 @@
   <a class="sticky-btn sticky-call" href="tel:+919509596667"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg> Call</a>
 </nav>
 
-<script src="js/scrollfx.js?v=b4774885" defer></script>
+<script src="js/scrollfx.js?v=687a6c91" defer></script>
 <script>
 // 3D gate: only fetch Three.js on devices that will enjoy it.
 addEventListener('load', function () {
@@ -196,7 +207,7 @@ addEventListener('load', function () {
       }
       var c = document.createElement('canvas');
       if (!(c.getContext('webgl2') || c.getContext('webgl'))) return;
-      import('./js/hero3d.js?v=b4774885').catch(function(){ /* photo hero stays */ });
+      import('./js/hero3d.js?v=687a6c91').catch(function(){ /* photo hero stays */ });
     } catch (e) { /* photo hero stays */ }
   };
   ('requestIdleCallback' in window) ? requestIdleCallback(go, {timeout: 3000}) : setTimeout(go, 800);
